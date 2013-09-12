@@ -34,6 +34,18 @@ get 'your_service_name/your_invocation_test_name'
 get 'your_invocation_test_name_method_params' => 'your_service_name#your_invocation_test_name_method_params'
 post 'your_invocation_test_name_submit' => 'your_service_name#invocation_submit'
 ```
+
+#####Config/initializers/soap.rb
+
+module SOAP
+ 
+  SOAPNamespaceTag = 'env'
+  XSDNamespaceTag = 'xsd'
+  XSINamespaceTag = 'xsi'
+ 
+end
+
+
 ####Then Vist
 ` localhost/your_service_name/your_invocation_test_name` to have a look at your functions.
 ####Others are same as below
