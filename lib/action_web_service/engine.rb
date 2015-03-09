@@ -9,7 +9,7 @@ module ActionWebService
         include ActionWebService::Invocation
       end
   
-      class ActionWebService::WebServiceController < ActionController::Base
+      class ActionWebService::WebServiceController < ActionController::API
         include ActionWebService::Protocol::Discovery
         include ActionWebService::Protocol::Soap
         include ActionWebService::Protocol::XmlRpc

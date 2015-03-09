@@ -13,6 +13,7 @@ Gem::Specification.new do |s|
   s.add_dependency('actionpack', '>= 3.2.12')
   s.add_dependency('activerecord', '>= 3.2.12')
   s.add_dependency('activesupport', '>= 3.2.12')
+  s.add_dependency('rails-api', '>= 0.4.0')
   
   s.has_rdoc = true
   s.requirements << 'none'
