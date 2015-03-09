@@ -17,7 +17,7 @@ Usage
 ####Gemfile
 ```
 gem "soap4r-ruby1.9", "~> 2.0.5"
-gem 'actionwebservice',:git => 'git://github.com/pokka/actionwebservice-3.2.12.git'
+gem 'actionwebservice',:git => 'git://github.com/chromov/actionwebservice-3.2.12.git'
 ```
 ####Controller
 ```
